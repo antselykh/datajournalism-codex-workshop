@@ -20,6 +20,11 @@
 - аккаунт ChatGPT с доступом к Codex
 - Chrome или Edge
 
+## Материалы занятия
+
+- [Prompts for the workshop](./prompts.md)
+- [Troubleshooting](./troubleshooting.md)
+
 ## Как начать
 
 1. Откройте репозиторий в Codespaces.
