@@ -1,5 +1,5 @@
 {
   "name": "datajournalism-codex-workshop",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "postCreateCommand": "python3 -m pip install --user pandas matplotlib openpyxl && npm install -g @openai/codex@0.116.0"
+  "postCreateCommand": "python3 -m pip install --user pandas matplotlib openpyxl && npm uninstall -g @openai/codex @openai/codex-linux-x64 >/dev/null 2>&1 || true && npm install -g \"@openai/codex@0.118.0\" \"@openai/codex-linux-x64@npm:@openai/codex@0.118.0-linux-x64\""
 }
