@@ -41,6 +41,8 @@ codex login --device-auth
 ```
 
 ## Первый prompt
+```bash
+
 Посмотри файл births_regions_russia_2015_2020.csv в текущей папке.
 
 Коротко:
@@ -66,6 +68,7 @@ codex login --device-auth
 
 ТЕХНИЧЕСКИЕ ДЕТАЛИ:
 - только если важны
+```
 
 ## Prompt для поиска аномалий
 Изучи births_regions_russia_2015_2020.csv и найди 3 самые интересные аномалии или неожиданные паттерны.
